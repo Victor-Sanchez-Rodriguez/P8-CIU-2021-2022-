@@ -14,7 +14,7 @@ void loop() {
   delay(60/freq);
   digitalWrite(LED_BUILTIN, LOW);
   delay(60/freq);
-  angle += 10;
+  angle += 1;
   if(angle>360){
     angle-=360;
   }
